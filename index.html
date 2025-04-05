@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+    #message {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .image-section {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to my Cafe!</h1>
+  </header>
+
+  <main>
+    <section id="textSection">
+      <p id="text">For those sweet, comforting drinks like hot cocoa or a caramel macchiato. A blend of "sip" and "sensational" for that perfect drink experience.. Click the button below to order!</p>
+      <button id="changeTextButton">Order Coffee!</button>
+    </section>
+
+    <section id="styleSection">
+      <p id="styledText">For sparkling beverages that bring a little extra pop..</p>
+      <button id="toggleStyleButton">Other beverages/button>
+    </section>
+    <section id="imageSection" class="image-section">
+        <h2>Refreshing Beverages</h2>
+        <img src="coffee.webp" alt="Coffee" id="coffeeImage">
+        <img src="tea.webp" alt="Tea" id="teaImage">
+        <img src="smoothie.webp" alt="Smoothie" id="smoothieImage">
+      </section>
+
+    <section id="elementSection">
+      <button id="addElementButton">Add New Beverage</button>
+      <div id="dynamicContainer"></div>
+    </section>
+
+    <section id="message">
+      <p id="messageText">For those cool, refreshing drinks you just can't get enough of.!</p>
+      <button id="removeMessageButton">Remove Message</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Cherry Cafe!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
